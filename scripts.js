@@ -18,10 +18,10 @@ tabs.forEach(function(tab){
 		})
 
 		if(currenttab == "lb"){
-			today.style.display = "block";
+			lb.style.display = "block";
 		}
 		else if(currenttab == "hs"){
-			month.style.display = "block";
+			hs.style.display = "block";
 		}
 
 	})
