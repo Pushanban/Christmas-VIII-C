@@ -1,7 +1,6 @@
 var tabs = document.querySelectorAll(".lboard_tabs ul li");
 var today = document.querySelector(".today");
 var month = document.querySelector(".month");
-var year = document.querySelector(".year");
 var items = document.querySelectorAll(".lboard_item");
 
 tabs.forEach(function(tab){
@@ -18,14 +17,11 @@ tabs.forEach(function(tab){
 			item.style.display = "none";
 		})
 
-		if(currenttab == "today"){
+		if(currenttab == "lb"){
 			today.style.display = "block";
 		}
-		else if(currenttab == "month"){
+		else if(currenttab == "hs"){
 			month.style.display = "block";
-		}
-		else{
-			year.style.display = "block";
 		}
 
 	})
